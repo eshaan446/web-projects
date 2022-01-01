@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Car Acceleration</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="divbtn">
+		<button class="btn" onclick="start()">START</button>
+		<button class="btn" onclick="stop()">STOP</button>
+	</div>
+	<div id='div'>
+		<img id='car'src="carmove.png">	
+	</div>
+	<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
+<!-- Javascript
+	m=0;
+var y;
+function start()
+{
+	y=setInterval(run,100);
+	function run()
+	{
+		if(m==1650){
+			clearInterval(y);
+			m=0;
+			alert('CAR CRASHED')
+		}
+		else{
+		m+=10;
+		var x=document.getElementById('car');
+		x.style.marginLeft=m+'px';
+	}
+	}
+}
+function stop(){
+	clearInterval(y)
+}
+-->
+<!-- CSS
+	body{
+	background-color: black;
+}
+#car{
+	height: 150px;
+	width: 150px;
+	margin-top: 25%;
+}
+#divbtn{
+	margin-top: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn{
+	height: 5rem;
+	width: 10rem;
+	color: #00bab1;
+	border: 1px black solid;
+	font-size: 3rem;
+}
+#carx{
+	height: 150px;
+	width: 150px;
+	margin-top: 40%;
+	margin-left: 83%;
+}
+
+	
+-->
