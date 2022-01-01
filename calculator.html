@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="maindiv">
+		<form name="mainform">
+			<input type="text" name="answer" id="answer"><br><br>
+			<input type="button" value="1" onclick="mainform.answer.value+='1'">
+			<input type="button" value="2" onclick="mainform.answer.value+='2'">
+			<input type="button" value="3" onclick="mainform.answer.value+='3'"><br><br>
+			<input type="button" value="4" onclick="mainform.answer.value+='4'">
+			<input type="button" value="5" onclick="mainform.answer.value+='5'">
+			<input type="button" value="6" onclick="mainform.answer.value+='6'"><br><br>
+			<input type="button" value="7" onclick="mainform.answer.value+='7'">
+			<input type="button" value="8" onclick="mainform.answer.value+='8'">
+			<input type="button" value="9" onclick="mainform.answer.value+='9'"><br><br>
+			<input type="button" value="+" onclick="mainform.answer.value+='+'">
+			<input type="button" value="0" onclick="mainform.answer.value+='0'">
+			<input type="button" value="-" onclick="mainform.answer.value+='-'"><br><br>
+			<input type="button" value="*" onclick="mainform.answer.value+='*'">
+			<input type="button" value="/" onclick="mainform.answer.value+='/'">
+			<input type="button" value="=" onclick="mainform.answer.value=eval(mainform.answer.value)"><br><br>
+			<input type="button" value="Clear All" onclick="mainform.answer.value=''" id="clearallbtn">
+		</form>
+	</div>
+
+</body>
+</html>
+<!--CSS
+	.maindiv{
+	height: 560px;
+	width: 450px;
+	border: 2px black solid;
+	margin: 8rem auto;
+	background-color: black;
+}
+input{
+	height: 60px;
+	width: 147px;
+	font-size: 2rem;
+	
+}
+#answer{
+	margin-top: 1rem;
+	margin-left: 1rem;
+	width: 25.5rem;
+	font-size: 3rem;
+
+}
+#clearallbtn{
+	margin-left: 1rem;
+	width: 26.2rem;
+}-->
